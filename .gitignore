@@ -1,3 +1,7 @@
-.ipj
+*.ipj
+
+*.bak
+
+*.lck
 
 OldVersions/

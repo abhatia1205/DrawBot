@@ -1,0 +1,74 @@
+FRC 2020 Season Organization Rules
+
+FILE NAMING RULES:
+	file names should follow the following format:		(without "<>")
+		<Version>_<subsystem>_<name of thing>
+
+	<Version> should be of format "V"<number> with numbers increasing from 1, only use integers
+
+	<subsystem> should be the accepted name for that version of a design
+		example: if subsystem "collector" has two designs "hook" and "roller intake" a part should be named:
+			V1_hook_<name of thing>		or		V1_rollder intake_<name of thing>
+	
+	if the file is the main assembly of a version of a subsystem it should be named as:
+		<Version>_<subsystem>_assembly.iam
+
+
+
+SUBSYSTEM FOLDER ORGANIZATION RULES:
+		note: "+" indicates a folder "\" indicates a file
+
+<subsystem>:.
+|
+|
+\-------Active Subsystem Assembly
+|
+|
++-------<old design>
+|	|
+|	|
+|	+-------V1
+|		|
+|		|
+|		+-------Geometry
+|		|
+|		|
+|		+-------Parts
+|		|
+|		|
+|		+-------Subassemblies
+|		|
+|		|
+|		\-------Version Main Assembly
+|
+|
+\-------<design>
+	|
+	|
+	+-------V1
+	|	|
+	|	|
+	|	+-------Geometry
+	|	|
+	|	|
+	|	+-------Parts
+	|	|
+	|	|
+	|	+-------Subassemblies
+	|	|
+	|	|
+	|	\-------Version Main Assembly
+	|
+	|
+	|
+	+-------V2	# in this demo the current version
+		|
+		|
+		+-------Geometry
+		|
+		|
+		+-------Parts
+		|
+		|
+		+-------Subassemblies
+	 
